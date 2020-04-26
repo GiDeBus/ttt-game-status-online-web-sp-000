@@ -39,11 +39,11 @@ def won?(board)
   position_8 = board[win_index_8] 
   position_9 = board[win_index_9]
   
-      if position_1 == "X" && position_2 == "X" && position_3 == "X"
-        return win_combination
-      else
-        false
-      end
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      return win_combination
+    else
+      false
+    end
   end
 end
 
