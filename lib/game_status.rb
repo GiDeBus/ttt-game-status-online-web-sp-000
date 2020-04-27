@@ -40,3 +40,6 @@ end
 #over?
 
 #winner?
+def winner?(board)
+  if won?(board)
+end
