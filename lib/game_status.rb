@@ -39,7 +39,7 @@ end
 def draw?(board)
   won?(board) == false && board.none?{|position| position == " "}
   end
-  return true
+    return true
 end
 
 
