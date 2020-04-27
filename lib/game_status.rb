@@ -29,9 +29,9 @@ def won?(board)
   win_index_8 = win_combination[7]
   win_index_9 = win_combination[8]
   
-  position_1 = board[win_index_1]
-  position_2 = board[win_index_2] 
-  position_3 = board[win_index_3]
+  position_1 = board[win_index_1].to_i
+  position_2 = board[win_index_2].to_i
+  position_3 = board[win_index_3].to_i
   position_4 = board[win_index_4] 
   position_5 = board[win_index_5] 
   position_6 = board[win_index_6] 
