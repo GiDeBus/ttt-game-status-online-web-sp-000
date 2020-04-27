@@ -17,8 +17,8 @@ WIN_COMBINATIONS = [
   ]
   
 def won?(board)
-  WIN_COMBINATIONS.each do |win_combination|
-    
+  WIN_COMBINATIONS.detect do |win_combination|
+#detect + find method
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
   win_index_3 = win_combination[2]
@@ -27,9 +27,8 @@ def won?(board)
   position_2 = board[win_index_2]
   position_3 = board[win_index_3]
   
-    if position_1 == position_2 && position_2 == position_3 && position_taken?(board,win_index_3)
+    position_1 == position_2 && position_2 == position_3 && position_taken?(board,win_index_3)
       return win_combination
-    end
   end
   return false
 end
