@@ -33,5 +33,5 @@ end
 
 # full?
 def full?(board)
-  board.any?{|position| position == " "}
+  board.none?{|position| position == " "}
 end
