@@ -41,7 +41,7 @@ def draw?(board)
 end
 
 #over?
-def over?
+def over?(board)
   if draw? || won?
     return true
   end
