@@ -36,6 +36,8 @@ def full?(board)
 end
 
 #draw?
+def draw?(board)
+  if won?(board) == false && board.none?
 
 #over?
 
