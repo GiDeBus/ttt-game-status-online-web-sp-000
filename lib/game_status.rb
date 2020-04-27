@@ -44,6 +44,7 @@ WIN_COMBINATIONS = [
     elsif position_4 == "X" && position_5 == "X" && position_6 == "X"
       return  win_combination
     elsif position_7 == "X" && position_8 == "X" && position_9 == "X"
+    return win_combination
     else
       return false
     end
