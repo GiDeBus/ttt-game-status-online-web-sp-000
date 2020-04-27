@@ -45,7 +45,7 @@ end
 
 #winner?
 
-def winner?(board)
+def winner?(board,index)
   if won?(board)
     return board[won?[1]]
   end
