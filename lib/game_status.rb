@@ -42,7 +42,7 @@ end
 
 #over?
 def over?
-  if draw? || won? || full?
+  if draw? || won?
   end
 end
 
