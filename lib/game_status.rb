@@ -37,7 +37,7 @@ end
 
 #draw?
 def draw?(board)
-  won?(board) == false && board.none?{|position| position == " "}
+  won?(board) == truthy && board.none?{|position| position == " "}
 end
 
 
