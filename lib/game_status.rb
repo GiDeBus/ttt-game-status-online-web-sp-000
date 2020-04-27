@@ -46,7 +46,7 @@ end
 #winner?
 
 def winner?(board)
-  if won?(board)
+  if !won?(board)
     return won?(board)[0]
   end
 end
