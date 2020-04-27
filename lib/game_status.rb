@@ -38,6 +38,8 @@ end
 #draw?
 def draw?(board)
   won?(board) == false && board.none?{|position| position == " "}
+end
+
 
 #over?
 
