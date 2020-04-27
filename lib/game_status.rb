@@ -33,9 +33,5 @@ end
 
 # full?
 def full?(board)
-  if board.any?{|position| position == " "}
-    return false
-  else
-    return true
-  end
+  board.any?{|position| position == " "}
 end
