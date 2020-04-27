@@ -40,8 +40,11 @@ def draw?(board)
   !won?(board) && full?(board)
 end
 
-
 #over?
+def over?
+  
+end
+
 
 #winner?
 
