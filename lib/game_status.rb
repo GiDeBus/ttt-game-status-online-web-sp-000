@@ -37,3 +37,6 @@ end
 
 #draw?
 
+#over?
+
+#winner?
