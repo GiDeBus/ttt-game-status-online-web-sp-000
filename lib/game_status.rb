@@ -43,6 +43,7 @@ end
 #over?
 def over?
   if draw? || won?
+    return true
   end
 end
 
