@@ -30,7 +30,7 @@ def won?(board)
   end
 end
 
-# full?
+#full?
 def full?(board)
   board.none?{|position| position == " "}
 end
