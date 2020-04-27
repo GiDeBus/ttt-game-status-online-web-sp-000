@@ -37,7 +37,7 @@ end
 
 #draw?
 def draw?(board)
-  !won?(board) && board.none?{|position| position == " "}
+  !won?(board) && full?(board)
 end
 
 
